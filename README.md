@@ -38,11 +38,14 @@ Fuente del dataset:
 
 1. Sube el notebook. El CSV se descargará automáticamente si no está en la
    misma carpeta.
-2. Si Spark no está instalado, ejecuta la celda opcional de instalación.
-3. Reinicia el entorno si Colab lo solicita y ejecuta todas las celdas en orden.
+2. Ejecuta la celda de comprobación del entorno: solo instalará Java 17 y
+   PySpark 3.5.1 si PySpark no está disponible.
+3. Ejecuta todas las celdas en orden.
 
-La celda incluida instala Java 17 y `pyspark==3.5.1`, tal como indica el
-enunciado.
+Se indican Java 17 y `pyspark==3.5.1` porque son exactamente las versiones
+propuestas en el enunciado de la práctica, no una elección arbitraria. El
+notebook también desactiva explícitamente el modo ANSI para seguir funcionando
+si Colab ya incluye una versión 4.x de Spark.
 
 ## Ejecución local
 
