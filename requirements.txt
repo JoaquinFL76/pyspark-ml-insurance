@@ -1,0 +1,7 @@
+pyspark==3.5.1
+pandas==2.2.2
+numpy<2.0
+pyarrow>=10.0.1
+setuptools>=68.0.0
+matplotlib>=3.7.0
+jupyter>=1.0.0
