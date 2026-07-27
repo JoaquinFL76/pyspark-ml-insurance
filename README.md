@@ -32,7 +32,9 @@ Fuente del dataset:
 - `StringIndexer`, `OneHotEncoder`, `VectorAssembler` y `StandardScaler` dentro
   de un `Pipeline` ajustado únicamente con entrenamiento;
 - regresión lineal y evaluación con RMSE, MAE y R²;
-- comparación con un modelo base y análisis de residuos.
+- comparación con un modelo base y análisis de residuos;
+- pruebas de humo sobre la limpieza, la división y las predicciones;
+- registro de versiones para facilitar la reproducibilidad de la corrección.
 
 ## Ejecución en Google Colab
 
