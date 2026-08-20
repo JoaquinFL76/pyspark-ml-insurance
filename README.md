@@ -40,7 +40,7 @@ Fuente del dataset:
 
 1. Sube el notebook. El CSV se descargará automáticamente si no está en la
    misma carpeta.
-2. Ejecuta la celda de comprobación del entorno: solo instalará Java 17 y
+2. Ejecuta la celda de comprobación del entorno: sólo instalará Java 17 y
    PySpark 3.5.1 si PySpark no está disponible.
 3. Ejecuta todas las celdas en orden.
 
